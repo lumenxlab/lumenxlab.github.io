@@ -34,7 +34,7 @@
 
     .member-simple-hero {
       display: grid;
-      grid-template-columns: 200px minmax(0, 1fr);
+      grid-template-columns: 235px minmax(0, 1fr);
       gap: 64px;
       align-items: center;
       padding: 42px 38px;
@@ -47,14 +47,14 @@
     }
 
     .member-simple-avatar {
-      width: 172px;
-      height: 172px;
+      width: 206px;
+      height: 206px;
       padding: 6px;
       display: grid;
       place-items: center;
       overflow: hidden;
       border: 5px solid transparent;
-      border-radius: 50%;
+      border-radius: 18px;
       background:
         linear-gradient(#ffffff, #ffffff) padding-box,
         linear-gradient(145deg, #2478bd, #28a86b, #e88324) border-box;
@@ -65,7 +65,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 50%;
+      border-radius: 12px;
     }
 
     .member-simple-content {
@@ -110,6 +110,25 @@
       flex-wrap: wrap;
       gap: 9px;
       align-items: center;
+    }
+
+    .member-email-text {
+      margin: 14px 0 0;
+      color: #175f9b;
+      font-size: 0.9rem;
+      font-weight: 750;
+      overflow-wrap: anywhere;
+    }
+
+    .member-email-text a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .member-email-text a:hover,
+    .member-email-text a:focus-visible {
+      color: #102a43;
     }
 
     .member-contact-link {
@@ -306,13 +325,13 @@
 
     @media (max-width: 900px) {
       .member-simple-hero {
-        grid-template-columns: 160px minmax(0, 1fr);
+        grid-template-columns: 195px minmax(0, 1fr);
         gap: 36px;
       }
 
       .member-simple-avatar {
-        width: 148px;
-        height: 148px;
+        width: 178px;
+        height: 178px;
       }
 
       .member-summary-grid,
@@ -425,14 +444,14 @@
 
           <p class="member-simple-lab">LUMEN-X Lab</p>
 
-          <div class="member-contact-links">
-
-            <a
-              class="member-contact-link email"
-              href="mailto:p20230482@hyderabad.bits-pilani.ac.in"
-            >
-              Contact
+          <p class="member-email-text">
+            Email:
+            <a href="mailto:p20230482@hyderabad.bits-pilani.ac.in">
+              p20230482@hyderabad.bits-pilani.ac.in
             </a>
+          </p>
+
+          <div class="member-contact-links">
 
             <a
               class="member-contact-link scholar"
