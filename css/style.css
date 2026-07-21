@@ -65,7 +65,7 @@ button {
 }
 
 .nav-wrap {
-  min-height: 78px;
+  min-height: 92px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,8 +82,8 @@ button {
 }
 
 .brand img {
-  width: 50px;
-  height: 50px;
+  width: 62px;
+  height: 62px;
   object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 14px;
@@ -96,13 +96,14 @@ button {
 }
 
 .brand strong {
+  font-size: 1.12rem;
   letter-spacing: 0.05em;
 }
 
 .brand small {
   margin-top: 5px;
   color: var(--muted);
-  font-size: 0.64rem;
+  font-size: 0.72rem;
   letter-spacing: 0.07em;
   text-transform: uppercase;
 }
@@ -114,10 +115,10 @@ button {
 }
 
 .primary-nav a {
-  padding: 9px 8px;
+  padding: 11px 10px;
   color: #334155;
   border-radius: 8px;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-weight: 750;
   text-decoration: none;
 }
@@ -741,7 +742,7 @@ code {
 
   .primary-nav a {
     padding-inline: 6px;
-    font-size: 0.76rem;
+    font-size: 0.84rem;
   }
 }
 
