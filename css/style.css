@@ -1121,3 +1121,16 @@ code {
     padding-top: 42px;
   }
 }
+
+/* Member photographs on People page */
+.member-avatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.member-avatar .member-avatar-fallback {
+  display: none;
+}
