@@ -1071,3 +1071,52 @@ code {
   font-weight: 850;
   white-space: nowrap;
 }
+
+/* =========================================================
+   People-page category sections
+   ========================================================= */
+
+.people-groups {
+  display: grid;
+  gap: 72px;
+}
+
+.people-group {
+  scroll-margin-top: 110px;
+}
+
+.people-group + .people-group {
+  padding-top: 56px;
+  border-top: 1px solid var(--line);
+}
+
+.people-group-heading {
+  margin-bottom: 27px;
+}
+
+.people-group-heading .eyebrow {
+  margin-bottom: 9px;
+}
+
+.people-group-heading h2 {
+  margin: 0;
+  color: var(--heading);
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.part-time-role {
+  color: #8b4c13;
+  background: #fff2e5;
+}
+
+@media (max-width: 720px) {
+  .people-groups {
+    gap: 54px;
+  }
+
+  .people-group + .people-group {
+    padding-top: 42px;
+  }
+}
