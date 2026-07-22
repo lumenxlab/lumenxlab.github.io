@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rajiv Ranjan Gupta | LUMEN-X Lab</title>
-  <meta name="description" content="Academic profile of Rajiv Ranjan Gupta at LUMEN-X Lab.">
-  <link rel="canonical" href="https://lumenxlab.org/people/rajiv-ranjan-gupta.html">
-  <meta property="og:title" content="Rajiv Ranjan Gupta | LUMEN-X Lab">
-  <meta property="og:description" content="Network security for IoT and next-generation networks.">
+  <title>Prof. Nikumani Choudhury | LUMEN-X Lab</title>
+  <meta name="description" content="Academic profile of Prof. Nikumani Choudhury at LUMEN-X Lab.">
+  <link rel="canonical" href="https://lumenxlab.org/people/nikumani-choudhury.html">
+  <meta property="og:title" content="Prof. Nikumani Choudhury | LUMEN-X Lab">
+  <meta property="og:description" content="Multidomain and emerging communication networks.">
   <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://lumenxlab.org/people/rajiv-ranjan-gupta.html">
-  <meta property="og:image" content="https://lumenxlab.org/images/members/rajiv-ranjan-gupta.jpg">
+  <meta property="og:url" content="https://lumenxlab.org/people/nikumani-choudhury.html">
+  <meta property="og:image" content="https://lumenxlab.org/images/members/nikumani-choudhury.jpg">
   <link rel="icon" type="image/png" href="/images/favicon.png?v=2">
   <link rel="stylesheet" href="/css/style.css">
 
@@ -324,13 +324,13 @@
       <section class="member-simple-hero">
         <div class="member-simple-avatar">
           <img
-            src="../images/members/rajiv-ranjan-gupta.jpg"
-            alt="Rajiv Ranjan Gupta"
+            src="/images/members/nikumani-choudhury.jpg"
+            alt="Prof. Nikumani Choudhury"
             width="720"
             height="720"
             onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
           >
-          <span class="member-avatar-fallback">RG</span>
+          <span class="member-avatar-fallback">NC</span>
         </div>
 
         <div class="member-simple-content">
@@ -338,9 +338,9 @@
             Department of Computer Science and Information Systems
           </p>
 
-          <h1>Rajiv Ranjan Gupta</h1>
+          <h1>Prof. Nikumani Choudhury</h1>
 
-          <p class="member-simple-programme">PhD Programme</p>
+          <p class="member-simple-programme">Faculty Lead and Principal Investigator</p>
           <p class="member-simple-lab">LUMEN-X Lab</p>
 
           <p class="member-email-text">
@@ -356,7 +356,7 @@
       <div class="member-summary-grid">
         <section class="member-summary-box">
           <h2>Research Area</h2>
-          <p>Network security for IoT and next-generation networks</p>
+          <p>Multidomain and emerging communication networks</p>
         </section>
 
         <section class="member-summary-box">
@@ -385,7 +385,7 @@
 
           <section class="member-detail-section" id="research">
             <h2>Research Interests and Technical Focus</h2>
-            <p>Network security for IoT and next-generation networks</p>
+            <p>Multidomain and emerging communication networks</p>
           </section>
 
           <section class="member-detail-section" id="publications">
