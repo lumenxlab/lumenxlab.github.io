@@ -1,22 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rajiv Ranjan Gupta | V2X, ITS and Vehicular Communication Research | LUMEN-X Lab</title>
-  <meta name="description" content="Rajiv Ranjan Gupta researches V2X communication, intelligent transportation systems, Optical Camera Communication, 6G, vehicular networks and secure autonomous mobility at LUMEN-X Lab.">
-  <link rel="canonical" href="https://lumenxlab.org/people/rajiv-ranjan-gupta.html">
-  <meta property="og:title" content="Rajiv Ranjan Gupta | LUMEN-X Lab">
-  <meta property="og:description" content="Network security for IoT and next-generation networks.">
-  <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://lumenxlab.org/people/rajiv-ranjan-gupta.html">
-  <meta property="og:image" content="https://lumenxlab.org/images/members/rajiv-ranjan-gupta.jpg">
-  <link rel="icon" type="image/png" href="/images/favicon.png?v=2">
-  <link rel="stylesheet" href="/css/style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Rajiv Ranjan Gupta | V2X and ITS Researcher | LUMEN-X Lab</title>
+<meta content="Rajiv Ranjan Gupta researches V2X communication, intelligent transportation systems, Optical Camera Communication, 6G, vehicular networks and secure autonomous mobility." name="description"/>
+<link href="https://lumenxlab.org/people/rajiv-ranjan-gupta.html" rel="canonical"/>
+<meta content="Rajiv Ranjan Gupta | V2X and ITS Researcher | LUMEN-X Lab" property="og:title"/>
+<meta content="Rajiv Ranjan Gupta researches V2X communication, intelligent transportation systems, Optical Camera Communication, 6G, vehicular networks and secure autonomous mobility." property="og:description"/>
+<meta content="profile" property="og:type"/>
+<meta content="https://lumenxlab.org/people/rajiv-ranjan-gupta.html" property="og:url"/>
+<meta content="https://lumenxlab.org/images/members/rajiv-ranjan-gupta.jpg" property="og:image"/>
+<link href="/images/favicon.png?v=2" rel="icon" type="image/png"/>
+<link href="/css/style.css" rel="stylesheet"/>
+<style>
+    .member-page {
+      background: #f6f8fb;
+    }
 
-  <style>
-    .member-page { background: #f6f8fb; }
-    .member-page-main { padding: 54px 0 82px; }
+    .member-page-main {
+      padding: 54px 0 82px;
+    }
 
     .member-simple-hero {
       display: grid;
@@ -33,7 +38,6 @@
     }
 
     .member-simple-avatar {
-      position: relative;
       width: 206px;
       height: 206px;
       padding: 6px;
@@ -55,19 +59,9 @@
       border-radius: 12px;
     }
 
-    .member-avatar-fallback {
-      position: absolute;
-      inset: 6px;
-      display: none;
-      place-items: center;
-      border-radius: 12px;
-      color: #102a43;
-      background: linear-gradient(145deg, #eaf4fb, #f7fafc, #edf7f1);
-      font-size: 3rem;
-      font-weight: 900;
+    .member-simple-content {
+      min-width: 0;
     }
-
-    .member-simple-content { min-width: 0; }
 
     .member-simple-department {
       margin: 0;
@@ -101,6 +95,14 @@
       font-weight: 850;
     }
 
+    .member-contact-links {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      align-items: center;
+    }
+
     .member-email-text {
       margin: 14px 0 0;
       color: #175f9b;
@@ -115,12 +117,9 @@
       text-underline-offset: 3px;
     }
 
-    .member-contact-links {
-      margin-top: 14px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 9px;
-      align-items: center;
+    .member-email-text a:hover,
+    .member-email-text a:focus-visible {
+      color: #102a43;
     }
 
     .member-contact-link {
@@ -143,6 +142,77 @@
       color: #ffffff;
       border-color: #175f9b;
       background: #175f9b;
+    }
+
+    .member-contact-link.email::before {
+      content: "✉";
+    }
+
+    .member-contact-link.scholar::before {
+      content: "G";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #4285f4;
+      font-size: 0.72rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.linkedin::before {
+      content: "in";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 4px;
+      background: #0a66c2;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.66rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.orcid::before {
+      content: "iD";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #a6ce39;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.6rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.github::before {
+      content: "GH";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #24292f;
+      font-size: 0.56rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.latrobe::before {
+      content: "LT";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 5px;
+      background: #6f2da8;
+      font-size: 0.58rem;
+      font-weight: 900;
     }
 
     .member-summary-grid {
@@ -233,14 +303,16 @@
       padding-left: 22px;
     }
 
+    .member-detail-section li + li {
+      margin-top: 10px;
+    }
+
     .member-detail-back {
       margin-top: 24px;
       display: inline-flex;
       font-weight: 850;
       text-decoration: none;
     }
-
-    .placeholder { font-style: italic; }
 
     @media (max-width: 900px) {
       .member-simple-hero {
@@ -265,7 +337,9 @@
     }
 
     @media (max-width: 650px) {
-      .member-page-main { padding-top: 30px; }
+      .member-page-main {
+        padding-top: 30px;
+      }
 
       .member-simple-hero {
         grid-template-columns: 1fr;
@@ -274,336 +348,384 @@
         text-align: center;
       }
 
-      .member-simple-avatar { margin-inline: auto; }
+      .member-simple-avatar {
+        margin-inline: auto;
+      }
 
       .member-simple-content {
         display: grid;
         justify-items: center;
       }
 
-      .member-detail-nav { grid-template-columns: 1fr; }
+      .member-contact-links {
+        justify-content: center;
+      }
+
+      .member-detail-nav {
+        grid-template-columns: 1fr;
+      }
 
       .member-detail-section,
-      .member-summary-box { padding: 24px; }
+      .member-summary-box {
+        padding: 24px;
+      }
     }
-  </style>
 
-</head>
-
+    .publication-list { margin-top: 18px; display: grid; gap: 15px; }
+    .publication-entry { padding: 19px 20px; border: 1px solid #dce5ed; border-radius: 14px; background: #f9fbfd; }
+    .publication-entry h3 { margin: 0; color: #102a43; font-size: 1rem; line-height: 1.45; }
+    .publication-entry p { margin: 8px 0 0; }
+    .publication-venue { color: #175f9b !important; font-weight: 800; }
+    .publication-links { margin-top: 11px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .publication-links a { font-weight: 800; }
+</style>
+<meta content="index, follow, max-image-preview:large" name="robots"/><meta content="Rajiv Ranjan Gupta" name="author"/><meta content="summary_large_image" name="twitter:card"/><meta content="Rajiv Ranjan Gupta | V2X and ITS Researcher" name="twitter:title"/><meta content="Research on V2X communication, intelligent transportation systems, Optical Camera Communication and secure mobility." name="twitter:description"/><meta content="https://lumenxlab.org/images/members/rajiv-ranjan-gupta.jpg" name="twitter:image"/><meta content="Portrait of Rajiv Ranjan Gupta" name="twitter:image:alt"/><meta content="Portrait of Rajiv Ranjan Gupta" property="og:image:alt"/><meta content="LUMEN-X Lab" property="og:site_name"/><meta content="en_US" property="og:locale"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://lumenxlab.org/people/rajiv-ranjan-gupta.html#profilepage",
+  "url": "https://lumenxlab.org/people/rajiv-ranjan-gupta.html",
+  "name": "Rajiv Ranjan Gupta | V2X and ITS Researcher | LUMEN-X Lab",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://lumenxlab.org/people/rajiv-ranjan-gupta.html#person",
+    "name": "Rajiv Ranjan Gupta",
+    "jobTitle": "Joint PhD Researcher",
+    "image": "https://lumenxlab.org/images/members/rajiv-ranjan-gupta.jpg",
+    "affiliation": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "BITS Pilani, Hyderabad Campus"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "RMIT University"
+      }
+    ],
+    "memberOf": {
+      "@type": "Organization",
+      "name": "LUMEN-X Lab",
+      "url": "https://lumenxlab.org/"
+    },
+    "knowsAbout": [
+      "6G",
+      "Internet of Vehicles",
+      "V2X Communication",
+      "Intelligent Transportation Systems",
+      "IEEE 802.15.7",
+      "Optical Camera Communication",
+      "Cellular V2X",
+      "Millimetre-Wave Communication",
+      "Medium Access Control",
+      "Guaranteed Time Slot",
+      "Automotive Cybersecurity"
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=lM8jWsYAAAAJ&hl=en",
+      "https://www.linkedin.com/in/rajiv-ranjan-gupta-27980a165/"
+    ]
+  }
+}</script></head>
 <body class="member-page">
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="/index.html" aria-label="LUMEN-X Lab home">
-        <img src="/images/lumenx-logo.png" alt="LUMEN-X Lab logo">
-        <span>
-          <strong>LUMEN-X Lab</strong>
-          <small>BITS Pilani · Hyderabad Campus</small>
-        </span>
-      </a>
-
-      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+<header class="site-header">
+<div class="container nav-wrap">
+<a aria-label="LUMEN-X Lab home" class="brand" href="/index.html">
+<img alt="LUMEN-X Lab logo" src="/images/lumenx-logo.png"/>
+<span>
+<strong>LUMEN-X Lab</strong>
+<small>BITS Pilani · Hyderabad Campus</small>
+</span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle">
         Menu
       </button>
-
-      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/people.html" class="active">People</a>
-        <a href="/research.html">Research</a>
-        <a href="/publications.html">Publications</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/news.html">News</a>
-        <a href="/opportunities.html">Opportunities</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="member-page-main">
-    <div class="container">
-      <section class="member-simple-hero">
-        <div class="member-simple-avatar">
-          <img
-            src="../images/members/rajiv-ranjan-gupta.jpg"
-            alt="Rajiv Ranjan Gupta"
-            width="720"
-            height="720"
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
-          >
-          <span class="member-avatar-fallback">RG</span>
-        </div>
-
-        <div class="member-simple-content">
-          <p class="member-simple-department">
-            Department of Computer Science and Information Systems
-          </p>
-
-          <h1>Rajiv Ranjan Gupta</h1>
-
-          <p class="member-simple-programme">PhD Programme</p>
-          <p class="member-simple-lab">LUMEN-X Lab</p>
-
-          <p class="member-email-text">
-            Email:
-            <a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a>
-          </p>
-
-          <!-- Add verified Scholar, LinkedIn, ORCID, GitHub or institutional-profile links here. -->
-          <div class="member-contact-links"></div>
-        </div>
-      </section>
-
-      <div class="member-summary-grid">
-        <section class="member-summary-box">
-          <h2>Research Area</h2>
-          <p>Network security for IoT and next-generation networks</p>
-        </section>
-
-        <section class="member-summary-box">
-          <h2>Supervisors</h2>
-          <p class="placeholder">To be updated.</p>
-        </section>
-      </div>
-
-      <div class="member-detail-layout">
-        <nav class="member-detail-nav" aria-label="Profile sections">
-          <a href="#education">Education</a>
-          <a href="#research">Research Focus</a>
-          <a href="#publications">Publications</a>
-          <a href="#patents">Patents</a>
-          <a href="#training">Training / Workshops</a>
-          <a href="#awards">Awards</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
-        <div class="member-detail-sections">
-          <section class="member-detail-section" id="education">
-            <h2>Education</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="research">
-            <h2>Research Interests and Technical Focus</h2>
-            <p>Network security for IoT and next-generation networks</p>
-          </section>
-
-          <section class="member-detail-section" id="publications">
-            <h2>Publications / Conference / Book Chapter</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="patents">
-            <h2>Patents</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="training">
-            <h2>Training / Workshops</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="awards">
-            <h2>Awards</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="experience">
-            <h2>Work Experience and Skills</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="contact">
-            <h2>Contact</h2>
-            <p>
-              <strong>Email:</strong>
-              <a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a>
-            </p>
-            <p>
-              <strong>Institution:</strong>
-              BITS Pilani, Hyderabad Campus.
-            </p>
-          </section>
-        </div>
-      </div>
-
-      <a class="member-detail-back" href="/people.html">← Return to People</a>
-    </div>
-
-<!-- RAJIV RESEARCH DETAILS START -->
-<section class="section member-research-details">
+<nav aria-label="Primary navigation" class="primary-nav" id="primary-nav">
+<a href="/index.html">Home</a>
+<a href="/about.html">About</a>
+<a class="active" href="/people.html">People</a>
+<a href="/research.html">Research</a>
+<a href="/publications.html">Publications</a>
+<a href="/projects.html">Projects</a>
+<a href="/news.html">News</a>
+<a href="/opportunities.html">Opportunities</a>
+<a href="/contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main class="member-page-main">
   <div class="container">
 
-    <div class="member-research-grid">
+    <section class="member-simple-hero">
+      <div class="member-simple-avatar">
+        <img
+          alt="Rajiv Ranjan Gupta"
+          height="720"
+          src="../images/members/rajiv-ranjan-gupta.jpg"
+          width="720"
+        />
+      </div>
 
-      <article class="member-research-main">
-        <p class="profile-eyebrow">Research Profile</p>
-
-        <h2>Research Topic</h2>
-        <p class="member-research-topic">
-          Secured &amp; Intelligent Vehicular Transportation Framework for
-          Indo-Australian Smart Cities
+      <div class="member-simple-content">
+        <p class="member-simple-department">
+          Department of Computer Science and Information Systems
         </p>
 
-        <h2>Short Bio</h2>
+        <h1>Rajiv Ranjan Gupta</h1>
+
+        <p class="member-simple-programme">
+          BITS–RMIT Joint PhD Programme
+        </p>
+
+        <p class="member-simple-lab">LUMEN-X Lab</p>
+
+        <p class="member-email-text">
+  <strong>BITS Email:</strong>
+  <a href="mailto:p20230905@hyderabad.bits-pilani.ac.in">
+    p20230905@hyderabad.bits-pilani.ac.in
+  </a>
+</p>
+
+        <div class="member-contact-links">
+          <a
+  class="member-contact-link scholar"
+  href="https://scholar.google.com/citations?user=lM8jWsYAAAAJ&amp;hl=en"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  Scholar
+</a>
+<a
+  class="member-contact-link linkedin"
+  href="https://www.linkedin.com/in/rajiv-ranjan-gupta-27980a165/"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  LinkedIn
+</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="member-summary-grid">
+
+      <section class="member-summary-box">
+        <h2>About</h2>
+
         <p>
           Rajiv Ranjan Gupta is a PhD researcher in the BITS Pilani–RMIT
-          University joint program. He is supervised by Prof. Ke Wang of RMIT
-          University and Prof. Nikumani Choudhury of BITS Pilani, with
-          additional supervision from Prof. Saman Atapattu of RMIT University
-          and Prof. Jay Kamlesh Dave of BITS Pilani.
-        </p>
-
-        <p>
-          His research focuses on a secured and intelligent vehicular
-          transportation framework for Indo-Australian smart cities. His work
-          spans intelligent transportation systems and V2X communication for
-          autonomous driving, emphasizing reliable, low-latency and secure
+          University joint programme. His research spans intelligent
+          transportation systems and V2X communication for autonomous
+          driving, with emphasis on reliable, low-latency and secure
           information exchange for resource-constrained edge and ITS
           deployments.
         </p>
+      </section>
+
+      <section class="member-summary-box">
+        <h2>Supervisors</h2>
 
         <p>
-          He holds a Master’s degree in Design Engineering from BITS Pilani.
-          After completing his M.Tech, he worked as an Engineer at Innominds
-          Software Pvt. Ltd. He later served as an Assistant Professor at
-          BITS Pilani, where he taught and mentored students in connected and
-          autonomous vehicles, advanced driver-assistance systems, vehicular
-          networks, automotive cybersecurity, artificial intelligence and deep
-          learning.
+          Prof. Ke Wang and Prof. Saman Atapattu, RMIT University;
+          Prof. Nikumani Choudhury and Prof. Jay Kamlesh Dave,
+          BITS Pilani.
         </p>
+      </section>
 
-        <p>
-          He has also led industry–academia programmes involving TATA Motors,
-          Bosch and Hyundai Mobis.
-        </p>
+    </div>
 
-        <h2>Research Objective</h2>
-        <p>
-          This research investigates advanced vehicle-to-everything
-          communication networks for intelligent transportation systems and
-          autonomous-driving applications. It focuses on improving
-          communication reliability, resource efficiency, security and network
-          performance in highly dynamic vehicular environments.
-        </p>
+    <div class="member-detail-layout">
 
-        <p>
-          The work also explores new and less congested higher-frequency
-          spectrum bands to address bandwidth limitations and spectrum scarcity
-          in conventional vehicular communication systems. Technologies such
-          as Cellular V2X, Optical Camera Communication, millimetre-wave
-          communication and hybrid RF-optical frameworks are considered to
-          improve connectivity and support next-generation intelligent
-          mobility solutions.
-        </p>
+      <nav
+        aria-label="Profile sections"
+        class="member-detail-nav"
+      >
+        <a href="#research">Research Focus</a>
+        <a href="#objective">Research Objective</a>
+        <a href="#methods">Tools and Platforms</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <h2>Projects, Tools and Experimental Platforms</h2>
-        <ul class="member-research-list">
-          <li>
-            MATLAB for communication-system modelling, algorithm development
-            and performance analysis.
-          </li>
-          <li>
-            Python for data analysis, protocol evaluation and experimental
-            processing.
-          </li>
-          <li>
-            WaveForms for hardware-oriented measurements, signal observation
-            and experimental studies.
-          </li>
-          <li>
-            Simulation of Urban MObility, or SUMO, for real-time vehicular
-            mobility and traffic-scenario generation.
-          </li>
-          <li>
-            Simulation and experimental evaluation of V2X, ITS, Optical Camera
-            Communication and hybrid RF-optical communication systems.
-          </li>
-        </ul>
-      </article>
+      <div class="member-detail-sections">
 
-      <aside class="member-research-sidebar">
+        <section
+          class="member-detail-section"
+          id="research"
+        >
+          <h2>Research Interests and Technical Focus</h2>
 
-        <div class="member-research-card">
-          <h2>Research Keywords</h2>
+          <p>
+            <strong>Research topic:</strong>
+            Secured &amp; Intelligent Vehicular Transportation Framework for
+            Indo-Australian Smart Cities.
+          </p>
 
-          <div class="member-keywords">
-            <span>6G</span>
-            <span>Internet of Vehicles</span>
-            <span>V2X Communication</span>
-            <span>Intelligent Transportation Systems</span>
-            <span>IEEE 802.15.7</span>
-            <span>Optical Camera Communication</span>
-            <span>Cellular V2X</span>
-            <span>Millimetre-Wave Communication</span>
-            <span>Medium Access Control</span>
-            <span>Superframe</span>
-            <span>Guaranteed Time Slot</span>
-            <span>Automotive Cybersecurity</span>
-          </div>
-        </div>
+          <ul>
+            <li>6G communication networks</li>
+            <li>Internet of Vehicles and V2X communication</li>
+            <li>Intelligent transportation systems</li>
+            <li>IEEE 802.15.7</li>
+            <li>Optical Camera Communication</li>
+            <li>Cellular V2X</li>
+            <li>Millimetre-wave vehicular communication</li>
+            <li>Hybrid RF-optical communication</li>
+            <li>Medium Access Control</li>
+            <li>Superframe and Guaranteed Time Slot allocation</li>
+            <li>Automotive cybersecurity and autonomous mobility</li>
+          </ul>
+        </section>
 
-        <div class="member-research-card">
-          <h2>Contact and Research Links</h2>
+        <section
+          class="member-detail-section"
+          id="objective"
+        >
+          <h2>Research Objective</h2>
 
-          <div class="member-research-links">
-            <a href="mailto:p20230905@hyderabad.bits-pilani.ac.in">
-              BITS Pilani Email
-            </a>
+          <p>
+            This research investigates advanced V2X communication networks
+            for intelligent transportation systems and autonomous-driving
+            applications. It focuses on improving communication reliability,
+            resource efficiency, security and network performance in highly
+            dynamic vehicular environments.
+          </p>
 
+          <p>
+            The work also explores new and less congested higher-frequency
+            spectrum bands to address bandwidth limitations and spectrum
+            scarcity in conventional vehicular communication systems.
+          </p>
+
+          <p>
+            Technologies including Cellular V2X, Optical Camera
+            Communication, millimetre-wave communication and hybrid
+            RF-optical frameworks are considered to improve connectivity and
+            support next-generation intelligent mobility solutions.
+          </p>
+        </section>
+
+        <section
+          class="member-detail-section"
+          id="methods"
+        >
+          <h2>Projects, Tools and Experimental Platforms</h2>
+
+          <ul>
+            <li>
+              MATLAB for communication-system modelling, algorithm
+              development and performance evaluation.
+            </li>
+            <li>
+              Python for data processing, protocol analysis and
+              experimental evaluation.
+            </li>
+            <li>
+              WaveForms for signal observation, measurements and
+              hardware-oriented experimental studies.
+            </li>
+            <li>
+              Simulation of Urban MObility, or SUMO, for real-time
+              vehicular mobility and traffic-scenario generation.
+            </li>
+            <li>
+              Simulation and experimental analysis of V2X, ITS,
+              Optical Camera Communication and hybrid RF-optical systems.
+            </li>
+          </ul>
+        </section>
+
+        <section
+          class="member-detail-section"
+          id="background"
+        >
+          <h2>Academic and Professional Background</h2>
+
+          <p>
+            Rajiv holds a Master’s degree in Design Engineering from
+            BITS Pilani. After completing his M.Tech, he worked as an
+            Engineer at Innominds Software Pvt. Ltd.
+          </p>
+
+          <p>
+            He later served as an Assistant Professor at BITS Pilani,
+            teaching and mentoring in connected and autonomous vehicles,
+            advanced driver-assistance systems, vehicular networks,
+            automotive cybersecurity, artificial intelligence and deep
+            learning.
+          </p>
+
+          <p>
+            He has also led industry–academia programmes involving
+            TATA Motors, Bosch and Hyundai Mobis.
+          </p>
+        </section>
+
+        <section
+          class="member-detail-section"
+          id="contact"
+        >
+          <h2>Contact and Research Profiles</h2>
+
+          <p>
+  <strong>BITS Pilani:</strong>
+  <a href="mailto:p20230905@hyderabad.bits-pilani.ac.in">
+    p20230905@hyderabad.bits-pilani.ac.in
+  </a>
+</p>
+
+          <p>
+            <strong>Google Scholar:</strong>
             <a
               href="https://scholar.google.com/citations?user=lM8jWsYAAAAJ&amp;hl=en"
-              target="_blank"
               rel="noopener noreferrer"
-              aria-label="Rajiv Ranjan Gupta on Google Scholar"
-            >
-              Google Scholar
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/rajiv-ranjan-gupta-27980a165/"
               target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Rajiv Ranjan Gupta on LinkedIn"
             >
-              LinkedIn
-            </a>
-          </div>
-
-          <p class="member-contact-email">
-            <strong>Email</strong><br>
-            <a href="mailto:p20230905@hyderabad.bits-pilani.ac.in">
-              p20230905@hyderabad.bits-pilani.ac.in
+              View research profile
             </a>
           </p>
-        </div>
 
-      </aside>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://www.linkedin.com/in/rajiv-ranjan-gupta-27980a165/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              View LinkedIn profile
+            </a>
+          </p>
+        </section>
 
+      </div>
     </div>
+
+    <a class="member-detail-back" href="/people.html">
+      ← Return to People
+    </a>
+
   </div>
-</section>
-<!-- RAJIV RESEARCH DETAILS END -->
-
 </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>LUMEN-X Lab</strong>
-        <p>Low-power, Ultra-reliable, Multidomain and Emerging Networks eXploration.</p>
-      </div>
-
-      <div>
-        <p>BITS Pilani, Hyderabad Campus</p>
-        <p><a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a></p>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<strong>LUMEN-X Lab</strong>
+<p>
+          Low-power, Ultra-reliable, Multidomain and Emerging Networks
+          eXploration.
+        </p>
+</div>
+<div>
+<p>BITS Pilani, Hyderabad Campus</p>
+<p>
+<a href="mailto:contact@lumenxlab.org">
+            contact@lumenxlab.org
+          </a>
+</p>
         <p><a href="https://www.linkedin.com/company/lumenxlab/" target="_blank" rel="noopener noreferrer" aria-label="LUMEN-X Lab on LinkedIn">LinkedIn</a></p>
+</div>
+<div class="footer-bottom">
+        © <span id="year"></span> LUMEN-X Lab
       </div>
-
-      <div class="footer-bottom">© <span id="year"></span> LUMEN-X Lab</div>
-    </div>
-  </footer>
-
-  <script src="/js/main.js"></script>
+</div>
+</footer>
+<script src="/js/main.js"></script>
 </body>
 </html>

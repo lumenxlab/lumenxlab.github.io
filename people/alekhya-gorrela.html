@@ -1,22 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alekhya Gorrela | LoRaWAN and Adaptive Data Rate Research | LUMEN-X Lab</title>
-  <meta name="description" content="Alekhya Gorrela researches LoRaWAN, LPWAN, Adaptive Data Rate, Channel Activity Detection, resource allocation and energy-efficient LoRa-based IoT networks at LUMEN-X Lab.">
-  <link rel="canonical" href="https://lumenxlab.org/people/alekhya-gorrela.html">
-  <meta property="og:title" content="Alekhya Gorrela | LUMEN-X Lab">
-  <meta property="og:description" content="Edge and fog computing.">
-  <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://lumenxlab.org/people/alekhya-gorrela.html">
-  <meta property="og:image" content="https://lumenxlab.org/images/members/alekhya-gorrela.jpg">
-  <link rel="icon" type="image/png" href="/images/favicon.png?v=2">
-  <link rel="stylesheet" href="/css/style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Alekhya Gorrela | LoRaWAN and LPWAN Researcher | LUMEN-X Lab</title>
+<meta content="Alekhya Gorrela researches LoRaWAN, LPWAN, Adaptive Data Rate, Channel Activity Detection, energy efficiency and resource allocation for large-scale IoT networks." name="description"/>
+<link href="https://lumenxlab.org/people/alekhya-gorrela.html" rel="canonical"/>
+<meta content="Alekhya Gorrela | LoRaWAN and LPWAN Researcher | LUMEN-X Lab" property="og:title"/>
+<meta content="Alekhya Gorrela researches LoRaWAN, LPWAN, Adaptive Data Rate, Channel Activity Detection, energy efficiency and resource allocation for large-scale IoT networks." property="og:description"/>
+<meta content="profile" property="og:type"/>
+<meta content="https://lumenxlab.org/people/alekhya-gorrela.html" property="og:url"/>
+<meta content="https://lumenxlab.org/images/members/alekhya-gorrela.jpg" property="og:image"/>
+<link href="/images/favicon.png?v=2" rel="icon" type="image/png"/>
+<link href="/css/style.css" rel="stylesheet"/>
+<style>
+    .member-page {
+      background: #f6f8fb;
+    }
 
-  <style>
-    .member-page { background: #f6f8fb; }
-    .member-page-main { padding: 54px 0 82px; }
+    .member-page-main {
+      padding: 54px 0 82px;
+    }
 
     .member-simple-hero {
       display: grid;
@@ -33,7 +38,6 @@
     }
 
     .member-simple-avatar {
-      position: relative;
       width: 206px;
       height: 206px;
       padding: 6px;
@@ -55,19 +59,9 @@
       border-radius: 12px;
     }
 
-    .member-avatar-fallback {
-      position: absolute;
-      inset: 6px;
-      display: none;
-      place-items: center;
-      border-radius: 12px;
-      color: #102a43;
-      background: linear-gradient(145deg, #eaf4fb, #f7fafc, #edf7f1);
-      font-size: 3rem;
-      font-weight: 900;
+    .member-simple-content {
+      min-width: 0;
     }
-
-    .member-simple-content { min-width: 0; }
 
     .member-simple-department {
       margin: 0;
@@ -101,6 +95,14 @@
       font-weight: 850;
     }
 
+    .member-contact-links {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      align-items: center;
+    }
+
     .member-email-text {
       margin: 14px 0 0;
       color: #175f9b;
@@ -115,12 +117,9 @@
       text-underline-offset: 3px;
     }
 
-    .member-contact-links {
-      margin-top: 14px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 9px;
-      align-items: center;
+    .member-email-text a:hover,
+    .member-email-text a:focus-visible {
+      color: #102a43;
     }
 
     .member-contact-link {
@@ -143,6 +142,77 @@
       color: #ffffff;
       border-color: #175f9b;
       background: #175f9b;
+    }
+
+    .member-contact-link.email::before {
+      content: "✉";
+    }
+
+    .member-contact-link.scholar::before {
+      content: "G";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #4285f4;
+      font-size: 0.72rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.linkedin::before {
+      content: "in";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 4px;
+      background: #0a66c2;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.66rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.orcid::before {
+      content: "iD";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #a6ce39;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.6rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.github::before {
+      content: "GH";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #24292f;
+      font-size: 0.56rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.latrobe::before {
+      content: "LT";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 5px;
+      background: #6f2da8;
+      font-size: 0.58rem;
+      font-weight: 900;
     }
 
     .member-summary-grid {
@@ -233,14 +303,16 @@
       padding-left: 22px;
     }
 
+    .member-detail-section li + li {
+      margin-top: 10px;
+    }
+
     .member-detail-back {
       margin-top: 24px;
       display: inline-flex;
       font-weight: 850;
       text-decoration: none;
     }
-
-    .placeholder { font-style: italic; }
 
     @media (max-width: 900px) {
       .member-simple-hero {
@@ -265,7 +337,9 @@
     }
 
     @media (max-width: 650px) {
-      .member-page-main { padding-top: 30px; }
+      .member-page-main {
+        padding-top: 30px;
+      }
 
       .member-simple-hero {
         grid-template-columns: 1fr;
@@ -274,278 +348,319 @@
         text-align: center;
       }
 
-      .member-simple-avatar { margin-inline: auto; }
+      .member-simple-avatar {
+        margin-inline: auto;
+      }
 
       .member-simple-content {
         display: grid;
         justify-items: center;
       }
 
-      .member-detail-nav { grid-template-columns: 1fr; }
+      .member-contact-links {
+        justify-content: center;
+      }
+
+      .member-detail-nav {
+        grid-template-columns: 1fr;
+      }
 
       .member-detail-section,
-      .member-summary-box { padding: 24px; }
+      .member-summary-box {
+        padding: 24px;
+      }
     }
-  </style>
 
-</head>
-
+    .publication-list { margin-top: 18px; display: grid; gap: 15px; }
+    .publication-entry { padding: 19px 20px; border: 1px solid #dce5ed; border-radius: 14px; background: #f9fbfd; }
+    .publication-entry h3 { margin: 0; color: #102a43; font-size: 1rem; line-height: 1.45; }
+    .publication-entry p { margin: 8px 0 0; }
+    .publication-venue { color: #175f9b !important; font-weight: 800; }
+    .publication-links { margin-top: 11px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .publication-links a { font-weight: 800; }
+</style>
+<meta content="index, follow, max-image-preview:large" name="robots"/><meta content="Alekhya Gorrela" name="author"/><meta content="summary_large_image" name="twitter:card"/><meta content="Alekhya Gorrela | LoRaWAN and LPWAN Researcher" name="twitter:title"/><meta content="Research on Adaptive Data Rate, Channel Activity Detection and resource allocation in LoRa-based IoT networks." name="twitter:description"/><meta content="https://lumenxlab.org/images/members/alekhya-gorrela.jpg" name="twitter:image"/><meta content="Portrait of Alekhya Gorrela" name="twitter:image:alt"/><meta content="Portrait of Alekhya Gorrela" property="og:image:alt"/><meta content="LUMEN-X Lab" property="og:site_name"/><meta content="en_US" property="og:locale"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://lumenxlab.org/people/alekhya-gorrela.html#profilepage",
+  "url": "https://lumenxlab.org/people/alekhya-gorrela.html",
+  "name": "Alekhya Gorrela | LoRaWAN and LPWAN Researcher | LUMEN-X Lab",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://lumenxlab.org/people/alekhya-gorrela.html#person",
+    "name": "Alekhya Gorrela",
+    "jobTitle": "PhD Researcher",
+    "image": "https://lumenxlab.org/images/members/alekhya-gorrela.jpg",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "BITS Pilani, Hyderabad Campus"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "LUMEN-X Lab",
+      "url": "https://lumenxlab.org/"
+    },
+    "knowsAbout": [
+      "Internet of Things",
+      "LoRaWAN",
+      "LPWAN",
+      "LoRa",
+      "Adaptive Data Rate",
+      "Channel Activity Detection",
+      "Resource Allocation",
+      "Energy Efficiency"
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=vDu_398AAAAJ&hl=en&oi=ao",
+      "https://www.linkedin.com/in/alekhya-gorrela-b1262b6b/"
+    ]
+  }
+}</script></head>
 <body class="member-page">
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="/index.html" aria-label="LUMEN-X Lab home">
-        <img src="/images/lumenx-logo.png" alt="LUMEN-X Lab logo">
-        <span>
-          <strong>LUMEN-X Lab</strong>
-          <small>BITS Pilani · Hyderabad Campus</small>
-        </span>
-      </a>
-
-      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+<header class="site-header">
+<div class="container nav-wrap">
+<a aria-label="LUMEN-X Lab home" class="brand" href="/index.html">
+<img alt="LUMEN-X Lab logo" src="/images/lumenx-logo.png"/>
+<span>
+<strong>LUMEN-X Lab</strong>
+<small>BITS Pilani · Hyderabad Campus</small>
+</span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle">
         Menu
       </button>
-
-      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/people.html" class="active">People</a>
-        <a href="/research.html">Research</a>
-        <a href="/publications.html">Publications</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/news.html">News</a>
-        <a href="/opportunities.html">Opportunities</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="member-page-main">
-    <div class="container">
-      <section class="member-simple-hero">
-        <div class="member-simple-avatar">
-          <img
-            src="../images/members/alekhya-gorrela.jpg"
-            alt="Alekhya Gorrela"
-            width="720"
-            height="720"
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
-          >
-          <span class="member-avatar-fallback">AG</span>
-        </div>
-
-        <div class="member-simple-content">
-          <p class="member-simple-department">
-            Department of Computer Science and Information Systems
-          </p>
-
-          <h1>Alekhya Gorrela</h1>
-
-          <p class="member-simple-programme">PhD Programme</p>
-          <p class="member-simple-lab">LUMEN-X Lab</p>
-
-          <p class="member-email-text">
-            Email:
-            <a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a>
-          </p>
-
-          <!-- Add verified Scholar, LinkedIn, ORCID, GitHub or institutional-profile links here. -->
-          <div class="member-contact-links"></div>
-        </div>
-      </section>
-
-      <div class="member-summary-grid">
-        <section class="member-summary-box">
-          <h2>Research Area</h2>
-          <p>Edge and fog computing</p>
-        </section>
-
-        <section class="member-summary-box">
-          <h2>Supervisors</h2>
-          <p class="placeholder">To be updated.</p>
-        </section>
-      </div>
-
-      <div class="member-detail-layout">
-        <nav class="member-detail-nav" aria-label="Profile sections">
-          <a href="#education">Education</a>
-          <a href="#research">Research Focus</a>
-          <a href="#publications">Publications</a>
-          <a href="#patents">Patents</a>
-          <a href="#training">Training / Workshops</a>
-          <a href="#awards">Awards</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
-        <div class="member-detail-sections">
-          <section class="member-detail-section" id="education">
-            <h2>Education</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="research">
-            <h2>Research Interests and Technical Focus</h2>
-            <p>Edge and fog computing</p>
-          </section>
-
-          <section class="member-detail-section" id="publications">
-            <h2>Publications / Conference / Book Chapter</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="patents">
-            <h2>Patents</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="training">
-            <h2>Training / Workshops</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="awards">
-            <h2>Awards</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="experience">
-            <h2>Work Experience and Skills</h2>
-            <p class="placeholder">To be updated.</p>
-          </section>
-
-          <section class="member-detail-section" id="contact">
-            <h2>Contact</h2>
-            <p>
-              <strong>Email:</strong>
-              <a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a>
-            </p>
-            <p>
-              <strong>Institution:</strong>
-              BITS Pilani, Hyderabad Campus.
-            </p>
-          </section>
-        </div>
-      </div>
-
-      <a class="member-detail-back" href="/people.html">← Return to People</a>
-    </div>
-
-<!-- ALEKHYA RESEARCH DETAILS START -->
-<section class="section member-research-details">
+<nav aria-label="Primary navigation" class="primary-nav" id="primary-nav">
+<a href="/index.html">Home</a>
+<a href="/about.html">About</a>
+<a class="active" href="/people.html">People</a>
+<a href="/research.html">Research</a>
+<a href="/publications.html">Publications</a>
+<a href="/projects.html">Projects</a>
+<a href="/news.html">News</a>
+<a href="/opportunities.html">Opportunities</a>
+<a href="/contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main class="member-page-main">
   <div class="container">
 
-    <div class="member-research-grid">
+    <section class="member-simple-hero">
+      <div class="member-simple-avatar">
+        <img
+          alt="Alekhya Gorrela"
+          height="720"
+          src="../images/members/alekhya-gorrela.jpg"
+          width="720"
+        />
+      </div>
 
-      <article class="member-research-main">
-        <p class="profile-eyebrow">Research Profile</p>
-
-        <h2>Research Topic</h2>
-        <p class="member-research-topic">
-          Exploiting Adaptive Data Rate Technique for Longer Network Lifetime
-          and Resource Allocation of LoRa-Based IoT Applications
+      <div class="member-simple-content">
+        <p class="member-simple-department">
+          Department of Computer Science and Information Systems
         </p>
 
-        <h2>Short Bio</h2>
-        <p>
-          Alekhya Gorrela is a researcher in the field of the Internet of Things,
-          with a focus on LoRaWAN and low-power wide-area networks. Her work
-          primarily involves optimizing network performance, improving energy
-          efficiency, and enhancing resource allocation for large-scale IoT
-          applications. She has experience in simulation-based analysis and
-          protocol-level optimization for wireless communication systems.
+        <h1>Alekhya Gorrela</h1>
+
+        <p class="member-simple-programme">
+          PhD Researcher · LoRaWAN and LPWAN
         </p>
 
-        <h2>Research Objective</h2>
-        <p>
-          This research focuses on improving the performance and energy
-          efficiency of LoRa-based IoT networks using the Adaptive Data Rate
-          technique. The work aims to enhance network lifetime and optimize
-          resource allocation for large-scale IoT applications. It also
-          evaluates the impact of Adaptive Data Rate and Channel Activity
-          Detection mechanisms on communication reliability and scalability.
-        </p>
+        <p class="member-simple-lab">LUMEN-X Lab</p>
 
-        <h2>Projects, Tools and Evaluation</h2>
-        <ul class="member-research-list">
-          <li>
-            Simulation of LoRaWAN networks using NS-3 and MATLAB.
-          </li>
-          <li>
-            Performance evaluation using metrics such as energy consumption,
-            packet delivery ratio and latency.
-          </li>
-          <li>
-            Implementation and evaluation of Adaptive Data Rate and Channel
-            Activity Detection mechanisms in simulated environments.
-          </li>
-        </ul>
-      </article>
+        <p class="member-email-text">
+  <strong>BITS Email:</strong>
+  <a href="mailto:contact@lumenxlab.org">
+    contact@lumenxlab.org
+  </a>
+</p>
 
-      <aside class="member-research-sidebar">
-
-        <div class="member-research-card">
-          <h2>Research Keywords</h2>
-
-          <div class="member-keywords">
-            <span>IoT</span>
-            <span>LoRaWAN</span>
-            <span>LPWAN</span>
-            <span>LoRa</span>
-            <span>Adaptive Data Rate</span>
-            <span>Channel Activity Detection</span>
-            <span>Resource Allocation</span>
-            <span>Energy Efficiency</span>
-          </div>
+        <div class="member-contact-links">
+          <a
+  class="member-contact-link scholar"
+  href="https://scholar.google.com/citations?user=vDu_398AAAAJ&amp;hl=en&amp;oi=ao"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  Scholar
+</a>
+<a
+  class="member-contact-link linkedin"
+  href="https://www.linkedin.com/in/alekhya-gorrela-b1262b6b/"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  LinkedIn
+</a>
         </div>
+      </div>
+    </section>
 
-        <div class="member-research-card">
-          <h2>Research Links</h2>
+    <div class="member-summary-grid">
+      <section class="member-summary-box">
+        <h2>About</h2>
+        <p>
+          Alekhya Gorrela is an IoT researcher focusing on LoRaWAN and
+          low-power wide-area networks. Her research addresses network
+          performance optimisation, energy efficiency and resource allocation
+          for large-scale IoT applications. Her work combines simulation-based
+          analysis with protocol-level optimisation for low-power wireless
+          communication systems.
+        </p>
+      </section>
 
-          <div class="member-research-links">
+      <section class="member-summary-box">
+        <h2>Research Topic</h2>
+        <p>
+          Exploiting Adaptive Data Rate Technique for Longer Network Lifetime
+          and Resource Allocation of LoRa-Based IoT Applications.
+        </p>
+      </section>
+    </div>
+
+    <div class="member-detail-layout">
+
+      <nav
+        aria-label="Profile sections"
+        class="member-detail-nav"
+      >
+        <a href="#research">Research Focus</a>
+        <a href="#objective">Research Objective</a>
+        <a href="#methods">Tools and Evaluation</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="member-detail-sections">
+
+        <section
+          class="member-detail-section"
+          id="research"
+        >
+          <h2>Research Interests and Technical Focus</h2>
+
+          <ul>
+            <li>Internet of Things and large-scale IoT applications</li>
+            <li>LoRa and LoRaWAN communication systems</li>
+            <li>Low-Power Wide-Area Networks</li>
+            <li>Adaptive Data Rate optimisation</li>
+            <li>Channel Activity Detection</li>
+            <li>Energy-efficient resource allocation</li>
+            <li>Network lifetime, reliability and scalability</li>
+          </ul>
+        </section>
+
+        <section
+          class="member-detail-section"
+          id="objective"
+        >
+          <h2>Research Objective</h2>
+
+          <p>
+            This research focuses on improving the performance and energy
+            efficiency of LoRa-based IoT networks using the Adaptive Data Rate
+            technique. The work aims to extend network lifetime and optimise
+            resource allocation for large-scale IoT applications.
+          </p>
+
+          <p>
+            It also evaluates the effect of Adaptive Data Rate and Channel
+            Activity Detection mechanisms on communication reliability,
+            latency, scalability and overall network performance.
+          </p>
+        </section>
+
+        <section
+          class="member-detail-section"
+          id="methods"
+        >
+          <h2>Projects, Tools and Evaluation</h2>
+
+          <ul>
+            <li>
+              Simulation of LoRaWAN networks using NS-3 and MATLAB.
+            </li>
+            <li>
+              Implementation and evaluation of Adaptive Data Rate mechanisms
+              in simulated LoRaWAN environments.
+            </li>
+            <li>
+              Evaluation of Channel Activity Detection mechanisms.
+            </li>
+            <li>
+              Performance analysis using energy consumption, packet delivery
+              ratio, latency, reliability and network lifetime.
+            </li>
+          </ul>
+        </section>
+
+        <section
+          class="member-detail-section"
+          id="contact"
+        >
+          <h2>Contact and Research Profiles</h2>
+
+          <p>
+  <strong>BITS Pilani:</strong>
+  <a href="mailto:contact@lumenxlab.org">
+    contact@lumenxlab.org
+  </a>
+</p>
+
+          <p>
+            <strong>Google Scholar:</strong>
             <a
               href="https://scholar.google.com/citations?user=vDu_398AAAAJ&amp;hl=en&amp;oi=ao"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
-              Google Scholar
+              View research profile
             </a>
+          </p>
 
+          <p>
+            <strong>LinkedIn:</strong>
             <a
               href="https://www.linkedin.com/in/alekhya-gorrela-b1262b6b/"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
-              LinkedIn
+              View LinkedIn profile
             </a>
-          </div>
-        </div>
+          </p>
+        </section>
 
-      </aside>
-
+      </div>
     </div>
+
+    <a class="member-detail-back" href="/people.html">
+      ← Return to People
+    </a>
+
   </div>
-</section>
-<!-- ALEKHYA RESEARCH DETAILS END -->
-
 </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>LUMEN-X Lab</strong>
-        <p>Low-power, Ultra-reliable, Multidomain and Emerging Networks eXploration.</p>
-      </div>
-
-      <div>
-        <p>BITS Pilani, Hyderabad Campus</p>
-        <p><a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a></p>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<strong>LUMEN-X Lab</strong>
+<p>
+          Low-power, Ultra-reliable, Multidomain and Emerging Networks
+          eXploration.
+        </p>
+</div>
+<div>
+<p>BITS Pilani, Hyderabad Campus</p>
+<p>
+<a href="mailto:contact@lumenxlab.org">
+            contact@lumenxlab.org
+          </a>
+</p>
         <p><a href="https://www.linkedin.com/company/lumenxlab/" target="_blank" rel="noopener noreferrer" aria-label="LUMEN-X Lab on LinkedIn">LinkedIn</a></p>
+</div>
+<div class="footer-bottom">
+        © <span id="year"></span> LUMEN-X Lab
       </div>
-
-      <div class="footer-bottom">© <span id="year"></span> LUMEN-X Lab</div>
-    </div>
-  </footer>
-
-  <script src="/js/main.js"></script>
+</div>
+</footer>
+<script src="/js/main.js"></script>
 </body>
 </html>
