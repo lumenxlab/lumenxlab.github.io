@@ -1134,3 +1134,219 @@ code {
 .member-avatar .member-avatar-fallback {
   display: none;
 }
+
+/* ALEKHYA RESEARCH PROFILE START */
+.researcher-profile-section {
+  padding-top: 1rem;
+}
+
+.researcher-profile-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(250px, 0.9fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.researcher-profile-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(17, 45, 78, 0.12);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 35px rgba(17, 45, 78, 0.07);
+}
+
+.researcher-profile-main h2 {
+  margin-top: 0.35rem;
+  line-height: 1.25;
+}
+
+.researcher-profile-main h3,
+.researcher-profile-sidebar h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.researcher-profile-sidebar {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.profile-eyebrow {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary, #164f86);
+}
+
+.researcher-profile-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.researcher-profile-list li + li {
+  margin-top: 0.65rem;
+}
+
+.research-keyword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.research-keyword-list span {
+  display: inline-flex;
+  padding: 0.45rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(22, 79, 134, 0.08);
+  color: #164f86;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.research-profile-links {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.research-profile-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.72rem 0.85rem;
+  border: 1px solid rgba(22, 79, 134, 0.18);
+  border-radius: 10px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.research-profile-links a::after {
+  content: "↗";
+  font-size: 0.95rem;
+}
+
+.research-profile-links a:hover,
+.research-profile-links a:focus-visible {
+  background: rgba(22, 79, 134, 0.07);
+}
+
+@media (max-width: 820px) {
+  .researcher-profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ALEKHYA RESEARCH PROFILE END */
+
+/* MEMBER RESEARCH DETAILS START */
+.member-research-details {
+  padding-top: 1rem;
+}
+
+.member-research-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(250px, 0.9fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.member-research-main,
+.member-research-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(17, 45, 78, 0.12);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 35px rgba(17, 45, 78, 0.07);
+}
+
+.member-research-main h2,
+.member-research-card h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.65rem;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+}
+
+.member-research-main h2:first-of-type,
+.member-research-card h2:first-child {
+  margin-top: 0;
+}
+
+.member-research-topic {
+  font-size: clamp(1.05rem, 2vw, 1.22rem);
+  font-weight: 650;
+  line-height: 1.55;
+  color: #163f67;
+}
+
+.profile-eyebrow {
+  margin: 0 0 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary, #164f86);
+}
+
+.member-research-sidebar {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.member-research-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.member-research-list li + li {
+  margin-top: 0.65rem;
+}
+
+.member-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.member-keywords span {
+  display: inline-flex;
+  padding: 0.45rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(22, 79, 134, 0.08);
+  color: #164f86;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.member-research-links {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.member-research-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.72rem 0.85rem;
+  border: 1px solid rgba(22, 79, 134, 0.18);
+  border-radius: 10px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.member-research-links a::after {
+  content: "↗";
+}
+
+.member-research-links a:hover,
+.member-research-links a:focus-visible {
+  background: rgba(22, 79, 134, 0.07);
+}
+
+@media (max-width: 820px) {
+  .member-research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* MEMBER RESEARCH DETAILS END */
