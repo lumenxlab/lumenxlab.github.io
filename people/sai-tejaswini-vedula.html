@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Sai Tejaswini Vedula | AI-Native LoRaWAN and 6G IoT Researcher | LUMEN-X Lab</title>
+<meta content="Sreejishnu P. A. researches the Internet of Things, 5G, artificial intelligence and smart manufacturing at LUMEN-X Lab." name="description"/>
+<link href="https://lumenxlab.org/people/sreejishnu-p-a.html" rel="canonical"/>
+<meta content="Sreejishnu P. A. | IoT, 5G and Smart Manufacturing Researcher | LUMEN-X Lab" property="og:title"/>
+<meta content="Sreejishnu P. A. researches the Internet of Things, 5G, artificial intelligence and smart manufacturing at LUMEN-X Lab." property="og:description"/>
+<meta content="profile" property="og:type"/>
+<meta content="https://lumenxlab.org/people/sreejishnu-p-a.html" property="og:url"/>
+<meta content="https://lumenxlab.org/images/members/sreejishnu-p-a.jpg" property="og:image"/>
+<meta content="Portrait of Sreejishnu P. A." property="og:image:alt"/>
+<meta content="LUMEN-X Lab" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<link href="/images/favicon.png?v=2" rel="icon" type="image/png"/>
+<link href="/css/style.css" rel="stylesheet"/>
+<style>
+    .member-page {
+      background: #f6f8fb;
+    }
+
+    .member-page-main {
+      padding: 54px 0 82px;
+    }
+
+    .member-simple-hero {
+      display: grid;
+      grid-template-columns: 235px minmax(0, 1fr);
+      gap: 64px;
+      align-items: center;
+      padding: 42px 38px;
+      border: 1px solid #d8e2ec;
+      border-radius: 26px;
+      background:
+        radial-gradient(circle at 0 0, rgba(36, 120, 189, 0.09), transparent 36%),
+        #ffffff;
+      box-shadow: 0 16px 44px rgba(16, 42, 67, 0.08);
+    }
+
+    .member-simple-avatar {
+      width: 206px;
+      height: 206px;
+      padding: 6px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border: 5px solid transparent;
+      border-radius: 18px;
+      background:
+        linear-gradient(#ffffff, #ffffff) padding-box,
+        linear-gradient(145deg, #2478bd, #28a86b, #e88324) border-box;
+      box-shadow: 0 16px 34px rgba(16, 42, 67, 0.13);
+    }
+
+    .member-simple-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .member-simple-content {
+      min-width: 0;
+    }
+
+    .member-simple-department {
+      margin: 0;
+      color: #175f9b;
+      font-size: 1rem;
+      font-weight: 850;
+    }
+
+    .member-simple-content h1 {
+      margin: 10px 0 0;
+      color: #102a43;
+      font-size: clamp(2.1rem, 4.9vw, 3.5rem);
+      line-height: 0.96;
+      letter-spacing: -0.055em;
+    }
+
+    .member-simple-programme {
+      width: fit-content;
+      margin: 18px 0 0;
+      padding: 7px 12px;
+      color: #a3113a;
+      border-radius: 999px;
+      background: #fff0f5;
+      font-size: 0.78rem;
+      font-weight: 850;
+    }
+
+    .member-simple-lab {
+      margin: 15px 0 0;
+      color: #102a43;
+      font-weight: 850;
+    }
+
+    .member-contact-links {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      align-items: center;
+    }
+
+    .member-email-text {
+      margin: 14px 0 0;
+      color: #175f9b;
+      font-size: 0.9rem;
+      font-weight: 750;
+      overflow-wrap: anywhere;
+    }
+
+    .member-email-text a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .member-email-text a:hover,
+    .member-email-text a:focus-visible {
+      color: #102a43;
+    }
+
+    .member-contact-link {
+      min-height: 38px;
+      padding: 8px 11px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #175f9b;
+      border: 1px solid #cfe0ee;
+      border-radius: 999px;
+      background: #f4f9fd;
+      font-size: 0.8rem;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .member-contact-link:hover,
+    .member-contact-link:focus-visible {
+      color: #ffffff;
+      border-color: #175f9b;
+      background: #175f9b;
+    }
+
+    .member-contact-link.email::before {
+      content: "✉";
+    }
+
+    .member-contact-link.scholar::before {
+      content: "G";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #4285f4;
+      font-size: 0.72rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.linkedin::before {
+      content: "in";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 4px;
+      background: #0a66c2;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.66rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.orcid::before {
+      content: "iD";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #a6ce39;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.6rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.github::before {
+      content: "GH";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 50%;
+      background: #24292f;
+      font-size: 0.56rem;
+      font-weight: 900;
+    }
+
+    .member-contact-link.latrobe::before {
+      content: "LT";
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      border-radius: 5px;
+      background: #6f2da8;
+      font-size: 0.58rem;
+      font-weight: 900;
+    }
+
+    .member-summary-grid {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 1.55fr 0.85fr;
+      gap: 20px;
+    }
+
+    .member-summary-box {
+      padding: 25px 28px;
+      border: 1px solid #dce5ed;
+      border-radius: 18px;
+      background: #ffffff;
+    }
+
+    .member-summary-box h2 {
+      margin: 0;
+      color: #102a43;
+      font-size: 1rem;
+    }
+
+    .member-summary-box p {
+      margin: 10px 0 0;
+      color: #5f6b7a;
+    }
+
+    .member-detail-layout {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 245px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .member-detail-nav {
+      position: sticky;
+      top: 102px;
+      padding: 18px;
+      display: grid;
+      gap: 4px;
+      border: 1px solid #dce5ed;
+      border-radius: 18px;
+      background: #ffffff;
+    }
+
+    .member-detail-nav a {
+      padding: 9px 11px;
+      color: #34465a;
+      border-radius: 9px;
+      font-size: 0.8rem;
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    .member-detail-nav a:hover {
+      color: #175f9b;
+      background: #edf5fb;
+    }
+
+    .member-detail-sections {
+      display: grid;
+      gap: 18px;
+    }
+
+    .member-detail-section {
+      padding: 29px 32px;
+      scroll-margin-top: 105px;
+      border: 1px solid #dce5ed;
+      border-radius: 20px;
+      background: #ffffff;
+    }
+
+    .member-detail-section h2 {
+      margin: 0;
+      color: #102a43;
+      font-size: 1.25rem;
+    }
+
+    .member-detail-section p,
+    .member-detail-section li {
+      color: #5f6b7a;
+    }
+
+    .member-detail-section ul,
+    .member-detail-section ol {
+      margin: 14px 0 0;
+      padding-left: 22px;
+    }
+
+    .member-detail-section li + li {
+      margin-top: 10px;
+    }
+
+    .member-detail-back {
+      margin-top: 24px;
+      display: inline-flex;
+      font-weight: 850;
+      text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+      .member-simple-hero {
+        grid-template-columns: 195px minmax(0, 1fr);
+        gap: 36px;
+      }
+
+      .member-simple-avatar {
+        width: 178px;
+        height: 178px;
+      }
+
+      .member-summary-grid,
+      .member-detail-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .member-detail-nav {
+        position: static;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 650px) {
+      .member-page-main {
+        padding-top: 30px;
+      }
+
+      .member-simple-hero {
+        grid-template-columns: 1fr;
+        gap: 22px;
+        padding: 30px 24px;
+        text-align: center;
+      }
+
+      .member-simple-avatar {
+        margin-inline: auto;
+      }
+
+      .member-simple-content {
+        display: grid;
+        justify-items: center;
+      }
+
+      .member-contact-links {
+        justify-content: center;
+      }
+
+      .member-detail-nav {
+        grid-template-columns: 1fr;
+      }
+
+      .member-detail-section,
+      .member-summary-box {
+        padding: 24px;
+      }
+    }
+
+    .publication-list { margin-top: 18px; display: grid; gap: 15px; }
+    .publication-entry { padding: 19px 20px; border: 1px solid #dce5ed; border-radius: 14px; background: #f9fbfd; }
+    .publication-entry h3 { margin: 0; color: #102a43; font-size: 1rem; line-height: 1.45; }
+    .publication-entry p { margin: 8px 0 0; }
+    .publication-venue { color: #175f9b !important; font-weight: 800; }
+    .publication-links { margin-top: 11px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .publication-links a { font-weight: 800; }
+
+    .member-detail-section h3 {
+      margin: 22px 0 0;
+      color: #175f9b;
+      font-size: 1rem;
+    }
+
+    .member-detail-section h3:first-of-type {
+      margin-top: 18px;
+    }
+
+</style>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="Sreejishnu P. A." name="author"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Sreejishnu P. A. | IoT and 5G Researcher" name="twitter:title"/>
+<meta content="Research on IoT, 5G, artificial intelligence and smart manufacturing." name="twitter:description"/>
+<meta content="https://lumenxlab.org/images/members/sreejishnu-p-a.jpg" name="twitter:image"/>
+<meta content="Portrait of Sreejishnu P. A." name="twitter:image:alt"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://lumenxlab.org/people/sreejishnu-p-a.html#profilepage",
+  "url": "https://lumenxlab.org/people/sreejishnu-p-a.html",
+  "name": "Sreejishnu P. A. | IoT, 5G and Smart Manufacturing Researcher | LUMEN-X Lab",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://lumenxlab.org/people/sreejishnu-p-a.html#person",
+    "name": "Sreejishnu P. A.",
+    "jobTitle": "PhD Researcher",
+    "image": "https://lumenxlab.org/images/members/sreejishnu-p-a.jpg",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "BITS Pilani, Hyderabad Campus"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "LUMEN-X Lab",
+      "url": "https://lumenxlab.org/"
+    },
+    "knowsAbout": [
+      "Internet of Things",
+      "5G",
+      "Artificial Intelligence",
+      "Smart Manufacturing",
+      "Industrial IoT"
+    ]
+  }
+}</script>
+</head>
+<body class="member-page">
+<header class="site-header">
+<div class="container nav-wrap">
+<a aria-label="LUMEN-X Lab home" class="brand" href="/index.html">
+<img alt="LUMEN-X Lab logo" src="/images/lumenx-logo.png"/>
+<span>
+<strong>LUMEN-X Lab</strong>
+<small>BITS Pilani · Hyderabad Campus</small>
+</span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle">
+        Menu
+      </button>
+<nav aria-label="Primary navigation" class="primary-nav" id="primary-nav">
+<a href="/index.html">Home</a>
+<a href="/about.html">About</a>
+<a class="active" href="/people.html">People</a>
+<a href="/research.html">Research</a>
+<a href="/publications.html">Publications</a>
+<a href="/projects.html">Projects</a>
+<a href="/news.html">News</a>
+<a href="/opportunities.html">Opportunities</a>
+<a href="/contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main class="member-page-main">
+  <div class="container">
+
+    <section class="member-simple-hero">
+
+      <div class="member-simple-avatar">
+        <img
+          src="../images/members/sai-tejaswini-vedula.jpg"
+          alt="Sai Tejaswini Vedula"
+          width="720"
+          height="720"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+        >
+        <span class="member-avatar-fallback">STV</span>
+      </div>
+
+      <div class="member-simple-content">
+
+        <p class="member-simple-department">
+          Department of Computer Science and Information Systems
+        </p>
+
+        <h1>Sai Tejaswini Vedula</h1>
+
+        <p class="member-simple-programme">Full-Time PhD Programme</p>
+        <p class="member-simple-lab">LUMEN-X Lab</p>
+
+        <p class="member-email-text">
+          Lab contact:
+          <a href="mailto:contact@lumenxlab.org">contact@lumenxlab.org</a>
+        </p>
+
+        <div class="member-contact-links"></div>
+      </div>
+
+    </section>
+
+    <div class="member-summary-grid">
+
+      <section class="member-summary-box">
+        <h2>About</h2>
+        <p>
+          Sai Tejaswini Vedula is a doctoral researcher at BITS Pilani,
+          Hyderabad Campus. Her research focuses on AI-native LoRaWAN for
+          Beyond-5G and 6G massive IoT networks, with emphasis on intelligent,
+          adaptive and scalable communication for next-generation IoT systems.
+        </p>
+      </section>
+
+      <section class="member-summary-box">
+        <h2>Supervisors</h2>
+        <p>
+          Her doctoral research is supervised by
+          Prof. Nikumani Choudhury.
+        </p>
+      </section>
+
+    </div>
+
+    <div class="member-detail-layout">
+
+      <nav class="member-detail-nav" aria-label="Profile sections">
+        <a href="#research">Research Focus</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="member-detail-sections">
+
+        <section class="member-detail-section" id="research">
+          <h2>Research Interests and Technical Focus</h2>
+          <ul>
+            <li>AI-native LoRaWAN</li>
+            <li>Beyond-5G and 6G communication systems</li>
+            <li>Massive Internet of Things networks</li>
+            <li>Intelligent and adaptive wireless networking</li>
+            <li>Scalable low-power wide-area networks</li>
+          </ul>
+        </section>
+
+        <section class="member-detail-section" id="contact">
+          <h2>Contact and Research Profiles</h2>
+          <p>
+            <strong>Lab contact:</strong>
+            <a href="mailto:contact@lumenxlab.org">
+              contact@lumenxlab.org
+            </a>
+          </p>
+        </section>
+
+      </div>
+    </div>
+
+    <a class="member-detail-back" href="/people.html">
+      ← Return to People
+    </a>
+
+  </div>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<strong>LUMEN-X Lab</strong>
+<p>
+          Low-power, Ultra-reliable, Multidomain and Emerging Networks
+          eXploration.
+        </p>
+</div>
+<div>
+<p>BITS Pilani, Hyderabad Campus</p>
+<p>
+<a href="mailto:contact@lumenxlab.org">
+            contact@lumenxlab.org
+          </a>
+</p>
+        <p><a href="https://www.linkedin.com/company/lumenxlab/" target="_blank" rel="noopener noreferrer" aria-label="LUMEN-X Lab on LinkedIn">LinkedIn</a></p>
+</div>
+<div class="footer-bottom">
+        © <span id="year"></span> LUMEN-X Lab
+      </div>
+</div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
